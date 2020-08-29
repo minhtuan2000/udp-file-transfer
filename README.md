@@ -5,21 +5,21 @@ The implementation have been tested on Ubuntu 20.04 and on the computer in the c
 
 ## 1. Build the client and server
 
-To build both client and server, open a terminal at the root folder of the project (where this readme.txt and Makefile is located) and run:
+To build both client and server, open a terminal at the root folder of the project (where this README.md and Makefile are located) and run:
 
 ```bash
 make clean
 make
 ```
 
-To build the client separately, open a terminal at the root folder of the project (where this readme.txt and Makefile is located) and run:
+To build the client separately, open a terminal at the root folder of the project (where this README.md and Makefile are located) and run:
 
 ```bash
 make clean
 make client/client
 ```
 
-To build the server separately, open a terminal at the root folder of the project (where this readme.txt and Makefile is located) and run:
+To build the server separately, open a terminal at the root folder of the project (where this README.md and Makefile are located) and run:
 
 ```bash
 make clean
@@ -28,7 +28,7 @@ make server/server
         
 ## 2. Run the server
 
-From the root folder of the project (where this readme.txt and Makefile is located), run:
+From the root folder of the project (where this README.md and Makefile are located), run:
     
 ```bash
 ./server/server port [option]
@@ -44,7 +44,7 @@ option:
 
 ## 3. Run the client
 
-From the root folder of the project (where this readme.txt and Makefile is located), run:
+From the root folder of the project (where this README.md and Makefile are located), run:
 
 ```bash
 ./client/client request_url [option]
