@@ -27,13 +27,13 @@ clean:
 	rm -f $(REBUILDABLES)
 
 $(CLIENT_TARGET) : $(CLIENT_OBJS)
-	cc -g -Werror -pthread -o $@ $^ 
+	cc -g -Werror -std=c99 -pthread -o $@ $^ 
 
 $(SERVER_TARGET) : $(SERVER_OBJS)
-	cc -g -Werror -pthread -o $@ $^ 
+	cc -g -Werror -std=c99 -pthread -o $@ $^ 
 
 %.o : %.c
-	cc -g -Werror -o $@ -c $<
+	cc -g -Werror -std=gnu99 -o $@ -c $<
 
 # Common dependencies
 common/logger.o : common/logger.h
