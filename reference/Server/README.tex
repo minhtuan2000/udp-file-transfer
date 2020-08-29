@@ -1,0 +1,21 @@
+These implementations of the file sharing server are provided for the
+purpose of testing your implementation of the file-sharing client.
+
+The files that the server will serve are to be located in the /files
+subdirectory.
+
+You start the program by:
+
+   server-app-MacOS start -port <port_number> [-drop] [-shuffle]
+
+or
+ 
+   server-app-Linux start -port <port_number> [-drop] [-shuffle]
+
+The argument -drop will cause the server to drop some chunks,
+allowing you to test that your client will properly request 
+retransmissions.
+
+The argument -shuffle will cause the server to send the chunks
+out of order, allowing you to test that your client will properly
+reorder chunks.
