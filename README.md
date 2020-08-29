@@ -1,7 +1,7 @@
 # udp-file-transfer
 A simple and robust file-sharing system, using both TCP and UDP.
 
-The implementation have been tested in Ubuntu 20.04
+The implementation have been tested on Ubuntu 20.04 and on the computer in the computer room (CentOS).
 
 ## 1. Build the client and server
 
