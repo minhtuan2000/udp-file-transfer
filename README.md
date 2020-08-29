@@ -66,6 +66,8 @@ option:
 **NOTE**: 
 
 The downloaded files will be assembled and located in the /download subdirectory. If this subdirectory does not exist, please create it first.
+
+To run downloaded executables, please run `chmod` to give necessary permission first.
     
 Only the original request URL is needed, the client will automatically send follow-up requests for the missing file chunks if needed.
     

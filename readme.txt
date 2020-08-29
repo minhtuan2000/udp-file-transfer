@@ -1,5 +1,5 @@
 A simple and robust file-sharing system, using both TCP and UDP.
-The implementation have been tested in Ubuntu 20.04
+The implementation have been tested on Ubuntu 20.04 and on the computer in the computer room (CentOS).
 
 1. Build the client and server
 
@@ -45,7 +45,8 @@ The implementation have been tested in Ubuntu 20.04
         --log, -l   Set log level (DEBUG, INFO, ERROR, NONE). Default: INFO
 
     *NOTE*: 
-        The downloaded files will be assembled and located in the /download subdirectory.
+        The downloaded files will be assembled and located in the /download subdirectory. If this subdirectory does not exist, please create it first.
+        To run downloaded executables, please run `chmod` to give necessary permission first.
         Only the original request URL is needed, the client will automatically send follow-up requests for the missing file chunks if needed.
         The <dest_address> should be where the client have access to host a server to receive files (eg. localhost, 127.0.0.1).
         
